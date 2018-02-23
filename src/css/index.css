@@ -1,0 +1,73 @@
+table {
+  border-collapse: collapse;
+}
+.App{
+  margin-left: 40%;
+
+}
+.empty-block {
+  width: 2em;
+  height: 2em;
+  border: 0.03em solid #ddd;
+}
+
+.empty-block-black {
+  width: 2em;
+  height: 2em;
+  border: 0.03em solid #ddd;
+  background-color: black;
+}
+.piece-i {
+  background-color: #ec858b;
+  width: 2em;
+  height: 2em;
+  border: 0.03em solid #ddd;
+}
+.piece-j {
+  background-color: #f1b598;
+  width: 2em;
+  height: 2em;
+  border: 0.03em solid #ddd;
+}
+.piece-l {
+  background-color: #f8efae;
+  width: 2em;
+  height: 2em;
+  border: 0.03em solid #ddd;
+}
+.piece-o {
+  background-color: #b5a677;
+  width: 2em;
+  height: 2em;
+  border: 0.03em solid #ddd;
+}
+.piece-s {
+  background-color: #816e56;
+  width: 2em;
+  height: 2em;
+  border: 0.03em solid #ddd;
+}
+.piece-t {
+  background-color: #b77c72;
+  width: 2em;
+  height: 2em;
+  border: 0.03em solid #ddd;
+}
+.piece-z {
+  background-color: #e3be58;
+  width: 2em;
+  height: 2em;
+  border: 0.03em solid #ddd;
+}
+.piece-preview {
+  background-color: black;
+}
+
+.fade {
+  opacity: 0;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
+}
